@@ -1,11 +1,17 @@
-body{
+.container{
     background-color: rgb(200, 119, 131);
     color: rgb(36, 28, 28);
     font-family: Helvetica, sans-serif;
+    text-align: center;
+}
+   
+#recipe-list.container{
+    border: 3px solid black;
+    margin: 50px 400px;
 }
 
-body .recipe-list{
-    text-align: center;
+.container.recipe-card{
+    border: 3px solid black;
 }
 
 img{
@@ -17,8 +23,8 @@ li{
     margin: 5px;
 }
 
-.recipe-list li{
-    list-style: none;
+#recipe-list.container li{
+    list-style-type: none;
 }
 
 button{
@@ -43,4 +49,12 @@ h2{
 
 div h1{
     text-decoration: underline;
+    color: rgb(71, 6, 6)
+}
+
+.content{
+    display: inline-block;
+    width: 600px;
+    vertical-align: top;
+    text-align: left;
 }
